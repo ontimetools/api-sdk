@@ -1,0 +1,34 @@
+{
+    "name": "ontimetools/api-sdk",
+    "description": "Axosoft's OnTime API SDK",
+    "keywords": [
+        "OnTime",
+        "Axosoft"
+    ],
+    "homepage": "http://www.aroy.fr",
+    "license": "MIT",
+    "version": "v1.0.1",
+    "authors": [
+        {
+            "name": "Alexandre ROY",
+            "homepage": "https://github.com/ontimetools/api-sdk/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "5.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*",
+        "squizlabs/php_codesniffer": "1.5.*",
+        "ivoba/stop": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": [
+                "src/",
+                "tests/"
+            ]
+        }
+    }
+}
